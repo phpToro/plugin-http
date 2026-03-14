@@ -5,6 +5,10 @@
         "ios": {
             "handlers": ["ios/HttpHandler.swift"],
             "frameworks": []
+        },
+        "macos": {
+            "handlers": ["ios/HttpHandler.swift"],
+            "frameworks": []
         }
     },
     "js": ["js/http.js"],

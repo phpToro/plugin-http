@@ -1,6 +1,6 @@
 import Foundation
 
-final class HttpHandler: NativeHandler {
+final class HttpHandler: AsyncHandler {
     let namespace = "http"
 
     var onAsyncCallback: ((String, Any?) -> Void)?
