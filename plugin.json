@@ -1,0 +1,14 @@
+{
+    "name": "HTTP",
+    "namespace": "http",
+    "platforms": {
+        "ios": {
+            "handlers": ["ios/HttpHandler.swift"],
+            "frameworks": []
+        }
+    },
+    "js": ["js/http.js"],
+    "php": {
+        "files": ["php/Http.php"]
+    }
+}
